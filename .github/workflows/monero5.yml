@@ -1,4 +1,4 @@
-name: Monero Mining
+name: Monero Mining 5
 
 on:
   schedule:
